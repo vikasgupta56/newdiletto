@@ -1,0 +1,122 @@
+.cake-main-title{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.cake-page-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cake-cont{
+    margin: 30px 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.cake-img-cont{
+    width: 260px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    /* background-color: aqua; */
+}
+.cake-img-cont img {
+    object-fit: cover;
+}
+.cake-details-cont{
+    padding: 15px 16px;
+    background-color: whitesmoke;
+}
+.cake-name{
+    font-size: 17px;
+}
+.cake-cut-price{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.cake-price-cont{
+    margin: 10px 0px;
+    align-items: center;
+display: flex;
+}
+.cake-price{
+    font-size: 19px;
+    color: var(--primary-color);
+}
+
+.cake-dot{
+    width: 4px;
+    height: 4px;
+    margin: 0px 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+.cake-min-kg{
+    font-size: 14px;
+}
+
+.qv-outer-cont{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .4);
+    z-index: 2;
+    height: 100vh;
+}
+.qv-inner-cont{
+    /* width: 100%; */
+    border: 1px solid rgba(0, 0, 0, .6);
+    background-color: white;
+    /* height: 100%; */
+    
+}
+.quick-view-cont{
+    position: absolute;
+    z-index: 1;
+    transform: translateY(calc(100% + 10px));
+    cursor: pointer;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .7);
+}
+.cake-cont:hover .quick-view-cont{
+    transform: translateY(0);
+}
+.cake-cont:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cake-abs{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    z-index: 1;
+}
+.cake-sidediv{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translateX(150%);
+    margin: 12px 0px;
+}
+.circle-inner{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.circle-inner:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+     
+}
+.cake-cont:hover .cake-sidediv{
+    transform: translateX(0);
+}
+.cake-sidediv svg{
+    font-size: 15px;
+    color: white;
+}

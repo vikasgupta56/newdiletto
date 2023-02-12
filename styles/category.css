@@ -1,0 +1,86 @@
+.top-coll {
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.back-arrow {
+    width: 35px;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.back-arrow {
+    margin-right: 13px;
+    /* margin-left: 20px; */
+}
+
+.back-arrow:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.br0 {
+    border-right: 0px !important;
+}
+
+.cat-cont {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cat-cont-inner {
+    width: 200%;
+    display: flex;
+}
+
+.cat-left {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.cat-right {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    /* background-color: aqua; */
+}
+
+.category {
+    width: 100%;
+    height: 70px;
+    font-weight: 500;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    /* border-bottom: 1px solid rgba(0, 0, 0, .4); */
+}
+
+.category:nth-child(2n) {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.category:hover {
+    background-color: rgba(0, 0, 0, .2);
+    /* color: var(--primary-color); */
+    border-left: 7px solid var(--primary-color);
+}
+
+.add-coll {
+    height: 70px;
+}
+
+.add-category {
+    cursor: pointer;
+}
+
+.add-category:hover .add-coll {
+    color: var(--primary-color);
+}

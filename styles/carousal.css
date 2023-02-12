@@ -1,0 +1,89 @@
+.cake-carousal-cont{
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.cakec-img-cont{
+width: 100%;
+height: 300px;
+position: relative;
+overflow: hidden;
+}
+.cakec-img-cont img{
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+.cakec-details-cont{
+    padding: 20px 15px;
+    background-color: white;
+}
+.cc-name{
+    font-size: 16px;
+    color: rgba(0, 0, 0, .8);
+    margin-bottom: 10px;
+}
+.cut-price{
+    color: rgba(0, 0, 0, .5);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+    /* margin: 10px 0px; */
+}
+.cakec-price{
+    font-size: 18px;
+}
+.cakec-price-cont{
+    display: flex;
+    align-items: center;
+}
+.circ{
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto 10px;
+}
+.min-kg{
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+}
+.arrow{
+    width: 45px;
+    height: 45px;
+    /* color: var(--primary-color); */
+    color: white;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    transition: all .3s ease;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* right: -50px; */
+    background: var(--primary-color);   
+}
+.arrow svg polyline{
+    transition: all .3s ease;
+}
+.arrow:hover{
+    background: none;
+    border: 2px solid var(--primary-color);
+}
+.arrow:hover svg polyline{
+    stroke: var(--primary-color);
+}
+.arrow svg{
+    font-size: 20px;
+}
+.arrow svg polyline{
+    stroke: white;
+}
+.prev-arr{
+    left: -70px;
+}
+.next-arr{
+    right: -70px;
+}
+
+.slick-list {margin: 0 -20px;}
+.slick-slide>div {padding: 0 20px;}

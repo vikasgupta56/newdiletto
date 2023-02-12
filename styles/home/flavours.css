@@ -1,0 +1,121 @@
+.flavour-grid {
+    margin: 50px auto;
+    width: fit-content;
+}
+
+.four-grid {
+    display: flex;
+}
+
+.grid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 260px;
+    border-right: 1px solid rgba(0, 0, 0, .5);
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.grid:nth-child(1) {
+    border-left: 1px solid rgba(0, 0, 0, .5);
+}
+
+.grid-one .grid {
+    border-top: 1px solid rgba(0, 0, 0, .5);
+}
+
+.grid::after {
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fda;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.fr-cc {
+    width: 180px;
+    height: 180px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #fda;
+}
+.cake-img-cont-grid{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cakeimg-in img{
+    object-fit: contain;
+}
+
+.fr-cont {
+    position: absolute;
+    bottom: 0;
+    right:  0;
+    border-radius: 50%;
+    width: 100%;
+    z-index: 2;
+    transition: all .3s ease;
+    background-color: #fda;
+    height: 100%;
+}
+
+.fruit-img-cont {
+    width: 90%;
+    height: 90%;
+}
+
+.fruit-img-cont img {
+    object-fit: contain;
+}
+
+.cakeimg-in {
+    width: 90%;
+    height: 90%;
+}
+
+.cakeimg-in img {
+    object-fit: contain;
+}
+
+.grid:hover .fr-cont {
+    top: unset;
+    bottom: 0;
+    left: unset;
+    right: 0;
+    transform: translate(50%,50%);
+    width: 80px;
+    height: 80px;
+
+}
+
+/* .fr-cont img{
+    width: 100%;
+    height: 100%;
+} */
+.cake-grid-cont {
+    width: 180px;
+    height: 180px;
+    z-index: 2;
+    display: none;
+}
+
+/* .cake-grid-cont img{
+    width: 100%;
+    height: 100%;
+} */
+/* .grid:hover .cake-grid-cont{ */
+/* display: block; */
+/* } */
+.grid:hover .fr-cont {
+    /* display: none; */
+}
+
+.img-contain {
+    object-fit: contain;
+}

@@ -1,0 +1,21 @@
+.col-cont{
+    display: flex;
+    justify-content: center;
+    margin: 130px 0px;
+}
+.col{
+    width: 450px;
+
+    /* height: 400px; */
+    background-color: aqua;
+    overflow: hidden;
+
+}
+
+
+.vid{
+    /* transform: scale(2); */
+    /* height: 115%; */
+    height: 400px;
+
+}

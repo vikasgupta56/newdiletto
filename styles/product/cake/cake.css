@@ -1,0 +1,300 @@
+.cakepro-div {
+    display: flex;
+    margin: 30px 0;
+
+}
+
+.cakepro-left {
+    width: 50%;
+}
+
+.cakepro-img-div {
+    width: 30vw;
+    background-color: aqua;
+    margin-right: 30px;
+    margin-left: auto;
+    height: 30vw;
+    position: relative;
+}
+
+.cakepro-right {
+    width: 50%;
+    /* background-color: red; */
+}
+
+.cakepro-right-div {
+    margin: 0 3%;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 22px;
+    /* margin-top: 30px; */
+}
+
+.cakepro-title-div {
+    display: flex;
+    align-items: center;
+}
+
+.cakepro-title {
+    font-size: 28px;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 600;
+}
+
+.blue-img-cont {
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.blue-img-cont img {
+    object-fit: contain;
+}
+
+.rs {
+    font-size: 25px;
+    margin-right: 3px;
+    margin-bottom: auto;
+}
+
+.cake-cut-price {
+    color: rgba(0, 0, 0, .4);
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.cakepro-price {
+    font-size: 30px;
+    display: flex;
+    color: var(--primary-color);
+    margin: 20px 0px;
+}
+
+.pick {
+    margin: 10px 0px 15px 0;
+    /* font-weight: 600; */
+    /* color: rgba(0, 0, 0, .4); */
+}
+
+.cakepro-size-cont {
+    display: flex;
+    width: fit-content;
+    font-weight: 600;
+    padding: 8px 0px;
+    border: 1px solid rgb(225 224 224 / .97);
+    ;
+    align-items: center;
+}
+
+.size-sign {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: rgb(225 224 224 / .67);
+    border-radius: 50%;
+}
+
+.size-sign:hover {
+    background-color: black;
+    color: white;
+}
+
+.cake-size-inp {
+    width: 30px;
+    margin-right: 4px;
+    font-weight: 600;
+    background: none;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.cake-size-inp:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
+
+.size-sign svg {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sizes-cont {
+    display: flex;
+}
+
+.size {
+    width: 70px;
+    height: 35px;
+    margin: 0px 7px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 105px;
+    background-color: rgb(225 224 224 / .47);
+    transition: all .3s ease, border 0s;
+}
+
+.size:hover {
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+
+.active-size {
+    background-color: black !important;
+    color: white;
+}
+
+.size:nth-child(1) {
+    margin-left: 0px;
+}
+
+.size-t {
+    color: rgba(0, 0, 0, .4);
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.cakepro-size {
+    width: 90px;
+    height: 45px;
+    font-size: 20px;
+    /* border-radius: 5px; */
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.up-down-cont {
+    height: 45px;
+}
+
+.up-size {
+    height: 50%;
+    width: 40px;
+}
+
+.up-size svg {
+    font-size: 30px;
+    transform: rotate(180deg);
+    cursor: pointer;
+
+}
+
+.down-size svg {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.down-size {
+    height: 50%;
+    width: 40px;
+}
+
+.btn-cont {
+    display: flex;
+    margin: 30px 0;
+}
+
+.atc-btn {
+    width: 220px;
+    height: 45px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.atc-btn svg {
+    color: var(--primary-color);
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.atc-btn svg path {
+    stroke: var(--primary-color);
+}
+
+.atc-btn:hover {
+    border: 0px;
+    background-color: var(--primary-color);
+    /* background-color: black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
+
+.atc-btn:hover svg path {
+    /* color: white; */
+    stroke: white;
+}
+
+.buy-btn {
+    width: 220px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 25px;
+    /* font-weight: 600; */
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    margin-left: 20px;
+}
+
+.buy-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.star-cont {
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.stars {
+    display: flex;
+    margin-right: 5px;
+}
+
+.star {
+    margin: 0px 1px;
+}
+
+.star svg {
+    color: rgb(255, 210, 7);
+    font-size: 14px;
+}
+
+.whislist-cont {
+    margin: 20px 0px;
+    display: flex;
+}
+
+.wish-cont {
+    /* margin: 0px 10px; */
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.wish-cont:hover {
+    color: var(--primary-color);
+}
+
+.wish-cont:nth-child(1) {
+    margin-right: 30px;
+}
+
+.wish-cont svg {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}

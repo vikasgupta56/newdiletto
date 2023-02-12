@@ -1,0 +1,96 @@
+.scroll-div{
+    position: relative;
+    height: 200vh;
+}
+.scroll-cont {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.scroll-left {
+    width: 50%;
+    height: 100%;
+}
+
+.scroll-right {
+    width: 50%;
+    height: 100%;
+}
+
+.anime-cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+}
+
+.anime-line {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    height: 100%;
+    width: 1px;
+    background-color: var(--primary-color);
+}
+
+.anime-outer {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    background-color: #f5f3f3;
+    border: 1px solid var(--primary-color);
+    position: relative;
+}
+.anime-outer::before{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: var(--primary-color);
+    content: '';
+    border-radius: 50%;
+}
+.anime-outer::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: var(--primary-color);
+    content: '';
+    border-radius: 50%;
+}
+.anime-inner{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    overflow: hidden;
+}
+.anime-imgs-cont{
+    width: 100%;
+    height: 300%;
+    transform: translateY(calc(-200%/3));
+}
+.anime-img-div{
+    width: 100%;
+    height: calc(100%/3);
+}
+.anime-img{
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
+.anime-img img{
+    object-fit: contain;
+}

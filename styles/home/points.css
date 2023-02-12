@@ -1,0 +1,41 @@
+.points-cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.point{
+    display: flex;
+    width: 250px;
+}
+.point-left{
+    width: 9px;
+    height: 76px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+.point-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.point svg{
+    margin: auto 10px;
+    /* margin-left: 20px; */
+    /* font-size: 20px; */
+    height: 45px;
+    width: 45px;
+    color: black;
+}
+.point svg path{
+    /* fill : black */
+}
+.point-t{
+    font-size: 18px;
+    margin-bottom:10px 0;
+}
+.point-p{
+    font-size: 14px;
+    margin-top:10px;
+    color: rgba(0, 0, 0, .6);
+}
